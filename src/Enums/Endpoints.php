@@ -1,5 +1,5 @@
 <?php
-namespace Only35\Minimalism\Library\Dictionary;
+namespace Only35\Minimalism\Library\Dictionary\Enums;
 
 enum Endpoints: string
 {
