@@ -1,7 +1,7 @@
 {
   "name": "only35/dictionary",
   "description": "Dictionary for Only35",
-  "version": "0.1.4",
+  "version": "0.2.0",
   "homepage": "https://carlonicora.com",
   "time": "2021-05-20",
   "type": "project",
@@ -16,7 +16,8 @@
   ],
   "require": {
     "php": ">=8.2",
-    "ext-json": "*"
+    "ext-json": "*",
+    "carlonicora/minimalism": "~13.5"
   },
   "require-dev": {
     "roave/security-advisories": "dev-latest",

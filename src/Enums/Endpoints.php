@@ -1,7 +1,9 @@
 <?php
 namespace Only35\Minimalism\Library\Dictionary\Enums;
 
-enum Endpoints: string
+use CarloNicora\Minimalism\Interfaces\DictionaryInterface;
+
+enum Endpoints: string implements DictionaryInterface
 {
     case User='user';
     case Roll='roll';
