@@ -8,6 +8,7 @@ enum Endpoints: string
     case Stock='stock';
     case Manufacturer='manufacturer';
     case Photograph='photograph';
+    case Tag='tag';
 
     /**
      * @return string
@@ -21,6 +22,7 @@ enum Endpoints: string
             self::Roll => 'rollId',
             self::Manufacturer => 'manufacturerId',
             self::Photograph => 'photographId',
+            self::Tag => 'tagId',
         };
     }
 
@@ -36,6 +38,7 @@ enum Endpoints: string
             self::Roll => 'rolls',
             self::Manufacturer => 'manufacturers',
             self::Photograph => 'photographs',
+            self::Tag => 'tags',
         };
     }
 }
